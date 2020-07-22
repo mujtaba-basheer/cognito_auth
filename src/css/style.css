@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    margin-top: 7%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 7px;
+}
+
+button {
+    background-color: #ccc;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.otp-btn {
+    width: 12%;
+    margin: 0 3px;
+}
+
+.link {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 5px;
+    line-height: 10px;
+    color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: darkcyan;
+}
+
+.account {
+    width: 100%;
+    text-align: left;
+}
+
+#data-display {
+    font-family: 'Roboto Mono', monospace;
+    color: darkcyan;
+}
+
+.acc-det {
+    font-size: 80%;
+    color: rgb(202, 202, 0);
+}
+
+.auth-btn {
+    width: 20%;
+}
+
+.auth-btn:link,
+.auth-btn:visited,
+.auth-btn:hover,
+.auth-btn:active {
+    width: 20%;
+    margin-bottom: 0;
+    outline: none;
+}
+
+.auth-btn {
+    width: 20%;
+    margin-bottom: 0;
+}
+
+.auth-btn {
+    width: 20%;
+}
+
+.reset-btn,
+.reset-btn:link,
+.reset-btn:hover {
+    width: 20%;
+    margin-top: 15px;
+}
+
+#otp {
+    width: 25%;
+    margin-bottom: 15px;
+}
